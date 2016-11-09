@@ -12,7 +12,7 @@ public class Escritorio {
 		try{
 			calculadora.dividir(10, 2);
 		}catch(Exception e){
-			System.out.println("elevar es 1" +e.getMessage());
+			System.out.println("el error es: " +e.getMessage());
 		}
 	}
 }
